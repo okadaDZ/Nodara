@@ -15,4 +15,4 @@ pytest-asyncio>=0.23.5
 aiofiles>=23.2.1
 aiosqlite
 greenlet
-reportlab>=4.2.0
+reportlab>=5.0.0
