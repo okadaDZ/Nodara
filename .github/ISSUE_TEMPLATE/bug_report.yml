@@ -1,0 +1,65 @@
+name: Bug report
+description: Report a reproducible problem in Nodara.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve Nodara. Remove credentials and private workflow data before submitting.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Mobile app
+        - Backend API
+        - Diagram processing
+        - Workflow execution
+        - n8n export
+        - Scheduling
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.1.0 or commit SHA
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, device, Python, Node.js, and provider details that are safe to share.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Do not include API keys, personal data, or private prompts and outputs.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues for a duplicate.
+          required: true
+        - label: I removed credentials and sensitive workflow data.
+          required: true

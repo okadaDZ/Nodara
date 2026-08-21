@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Nodara",
+    "slug": "nodara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "nodara",
+    "splash": {
+      "backgroundColor": "#F7F5F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to camera to take photos of hand-drawn workflow diagrams.",
+        "NSMicrophoneUsageDescription": "This app needs access to microphone to record voice instructions for creating and editing AI agents.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library to select workflow diagrams."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Nodara to access your camera to photograph workflow diagrams."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Nodara to access your microphone to create and edit agent instructions."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
