@@ -7,12 +7,6 @@ Nodara is a mobile-first, open-source workflow builder for people who want to de
 > [!IMPORTANT]
 > Nodara is an active proof of concept. Review generated prompts and workflow behavior before using it with production data or external systems.
 
-## See Nodara in action
-
-<p align="center">
-  <img src="docs/images/nodara-demo.gif" alt="Animated Nodara demo showing the mobile workflow scanning and editing experience" width="320">
-</p>
-
 ## Product tour
 
 <table>
@@ -27,6 +21,12 @@ Nodara is a mobile-first, open-source workflow builder for people who want to de
     <td><img src="docs/images/nodara-workflow-canvas.png" alt="Nodara workflow editor showing a parallel multi-agent graph with save and run controls" width="260"></td>
   </tr>
 </table>
+
+## See Nodara in action
+
+<p align="center">
+  <img src="docs/images/nodara-demo.gif" alt="Animated Nodara demo showing the mobile workflow scanning and editing experience" width="320">
+</p>
 
 ## What Nodara can do
 
