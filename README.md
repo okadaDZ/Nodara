@@ -7,6 +7,21 @@ Nodara is a mobile-first, open-source workflow builder for people who want to de
 > [!IMPORTANT]
 > Nodara is an active proof of concept. Review generated prompts and workflow behavior before using it with production data or external systems.
 
+## Product tour
+
+<table>
+  <tr>
+    <td align="center"><strong>Learn from a real sketch</strong></td>
+    <td align="center"><strong>Scan or explore saved workflows</strong></td>
+    <td align="center"><strong>Edit the generated workflow</strong></td>
+  </tr>
+  <tr>
+    <td><img src="docs/images/nodara-how-it-works.png" alt="Nodara how-it-works screen showing a photographed hand-drawn workflow and three explanation steps" width="260"></td>
+    <td><img src="docs/images/nodara-home.png" alt="Nodara home screen with scan action, demo links, and saved workflow list" width="260"></td>
+    <td><img src="docs/images/nodara-workflow-canvas.png" alt="Nodara workflow editor showing a parallel multi-agent graph with save and run controls" width="260"></td>
+  </tr>
+</table>
+
 ## What Nodara can do
 
 - Convert a photographed workflow sketch into nodes, edges, parallel branches, and loops.
